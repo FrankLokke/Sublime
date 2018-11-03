@@ -26,5 +26,11 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
+        [Route ("Home/Checkout")]
+        public IActionResult Checkout()
+        {
+            return View();
+        }
     }
 }
